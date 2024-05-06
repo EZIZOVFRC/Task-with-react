@@ -1,0 +1,79 @@
+.sec4{
+    height: 190vh;
+    background-color:#09101a;
+    padding: 130px;
+    &__header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        span{
+            color: #55e6a5;
+                font-size: 24px;
+                font-weight: bolder;
+        }
+        h2{
+            font-weight: bolder;
+        color: white;
+      font-size: 52px;
+      width: 60%;
+      margin-top: 20px;
+      text-align: center;
+        }
+    }
+    &__body2{
+        width: 95%;
+        margin-top: 40px;
+        display: flex;
+        gap: 5%;
+        &__skill{
+            color: white;
+            background-color: #151c25;
+            padding: 20px;
+            position: relative;
+        }
+        &__skill:after {
+            position: absolute;
+            content: "";
+            height: 10px;
+            background-color:#55e6a5 ;
+            width: 75%;
+            bottom: 0;
+            left: 0;
+            animation: examp 10s ; 
+            } 
+            
+            @keyframes examp {
+                0% { width: 0px; }
+                100% { width: 75%; }
+            }
+
+            
+    }
+    &__body{
+        display: flex;
+        margin-top: 80px;
+        gap: 20px;
+        &__card{
+            display: flex;
+            flex-direction: column;
+            span{
+                text-align: center;
+                width: 25%;
+                color: #55e6a5;
+                border: 1px solid #55e6a5;
+                padding: 15px 10px;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            h5{
+                font-size: 32px;
+                color: white;
+            }
+            p{
+                font-size: 18px;
+                color: rgb(190, 190, 190);
+            }
+        }
+    }
+}

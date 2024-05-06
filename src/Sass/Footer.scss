@@ -1,0 +1,46 @@
+footer{
+    padding: 130px;
+    background-color: #02050a;
+    height: 65vh;
+    .top{
+        border-bottom: 0.5px solid rgba(128, 128, 128, 0.367);
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        i{
+            background-color:#55e6a5;
+            font-size: 64px;
+            color: black;
+            padding: 20px;
+            border-radius: 50%;
+            height: 100px;
+        }
+        &__boxs{
+            display: flex;
+            gap: 30px;
+            h5{
+                color: white;
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            span{
+                margin-top: 10px;
+                color: gray;
+                font-size: 18px
+            };
+        }
+    }
+    .bttm{
+        font-size: 18px;
+        color: gray;
+    margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 50px;
+        }
+    }
+}
