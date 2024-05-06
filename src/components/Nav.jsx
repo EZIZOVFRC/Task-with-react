@@ -1,5 +1,7 @@
 import React from "react";
 import FRCYoutube from "../assets/image/banner_shape.png"
+import Dropdown from '../components/Dropdown.jsx'
+import Dropdown2 from '../components/Dropdown2.jsx'
 function Nav() {
   return (
     <>
@@ -12,44 +14,28 @@ function Nav() {
         <div className="center col-4">
           <ul>
             <li>
-              <select name="pets" id="pet-select">
-                <option value="">HOME</option>
-                <option value="Home 1">HOME 1</option>
-                <option value="Home 2">HOME 2 </option>
-                <option value="Home 3">HOME 3</option>
-                <option value="Home 4">HOME 4</option>
-                <option value="Home 4">HOME 5</option>
-                <option value="Home 5">HOME 6</option>
-              </select>
+              <Dropdown/>
             </li>
             <li>
-              <a href="">ABOUT_US</a>
+              <a href="#aboutus">ABOUT_US</a>
             </li>
             <li>
-              <a href="">SERVICES</a>
+              <a href="#srvc">SERVICES</a>
             </li>
             <li>
-              <a href="">PROJECTS</a>
+              <a href="#projects">PROJECTS</a>
             </li>
             <li>
-              <select name="pets" id="pet-select">
-                <option value="">BLOG</option>
-                <option value="Home 1">Blog 1</option>
-                <option value="Home 2">Blog 2 </option>
-                <option value="Home 3">Blog 3</option>
-                <option value="Home 4">Blog 4</option>
-                <option value="Home 4">Blog 5</option>
-                <option value="Home 5">Blog 6</option>
-              </select>
+              <Dropdown2/>
             </li>
             <li>
-              <a href="">CONTACT</a>
+              <a href="#cont">CONTACT</a>
             </li>
           </ul>
         </div>
         <div className="right col-4">
           <button
-            class="btn btn-primary"
+            className="btn btn-primary"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight"
@@ -58,8 +44,8 @@ function Nav() {
           </button>
 
           <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
+            className="offcanvas offcanvas-end"
+            tabIndex="-1"
             id="offcanvasRight"
             aria-labelledby="offcanvasRightLabel"
           >
@@ -67,7 +53,7 @@ function Nav() {
               <img src="https://zyan.vercel.app/images/logo.png" alt="" />
               <button
                 type="button"
-                class="btn-close text-reset"
+                className="btn-close text-reset"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
@@ -114,6 +100,7 @@ function Nav() {
             <img className="ds" src="https://zyan.vercel.app/images/banner_img_1.png" alt="" />
         </div>
       </section>
+      <span id="circle" className="circle"></span>
     </>
   );
 }

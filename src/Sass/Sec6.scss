@@ -1,0 +1,115 @@
+#sec6{
+    background-color: #02050a;
+    height: 10vh;
+    padding: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+span{
+    color: #55e6a5;
+        font-size: 24px;
+        font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+color: white;
+font-size: 52px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+}
+
+.comments{
+    height: 90vh;
+    padding: 130px;
+    background-color: #02050a;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    &__comment{
+    
+        padding: 20px 50px;
+        border: 2px solid rgb(84, 84, 84);
+        position: relative;
+        img{
+            position: absolute;
+            border-radius: 50%;
+            top: 20px;
+            right: 50px;
+        }
+        .stars{
+            display: flex;
+            color: gold;
+            gap: 2%;
+        }
+        h5{
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        span{
+            color: gray !important;
+            margin-bottom: 40px;
+            font-size: 18px !important;
+        }
+        p{ margin-top: 20px;
+            color: gray;
+        }
+    }
+}
+
+// SEC7----------------------
+
+#sec7{
+    background-image: url(https://zyan.vercel.app/images/bg/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+    
+    .fl{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    }
+    h2{
+        font-size: 42px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 40px;
+    }
+    .mail{
+        display: flex;
+        width: 600px;
+        border: 2px solid #55e6a5;
+        input{
+            width: 70%;
+            background-color: #131313;
+            padding: 20px;
+            color: white;
+        }
+        button{
+            background:transparent;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                background-color: #55e6a5 ;
+                font-size: 22px;
+                color: black;
+                transition: 0.3s;
+            width: 30%;
+        }
+        button:hover{
+            background-color: rgba(46, 46, 46, 0.764);
+            border: none;
+            color: #ffffff;
+        }
+    }
+}
+
+
+
