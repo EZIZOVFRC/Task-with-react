@@ -5,6 +5,7 @@ import './Sass/Sec3.scss'
 import './Sass/Sec4.scss'
 import './Sass/Sec5.scss'
 import './Sass/Sec6.scss'
+import './Sass/Sec8.scss'
 import './Sass/Footer.scss'
 import CommentsSlider from './components/Slider.jsx'
 import Wheel from './components/Wheel.jsx'
@@ -16,12 +17,14 @@ import Sec4 from './components/Sec4'
 import Sec5 from './components/Sec5'
 import Sec6 from './components/Sec6';
 import Sec7 from './components/Sec7';
+import Sec8 from './components/Sec8';
 import Footer from './components/Footer.jsx'
 
 function App() {
 
   return (
     <>
+
     <Nav/>
     <Sec1/>
     <Sec2/>
@@ -31,6 +34,7 @@ function App() {
     <Sec6/>
     <CommentsSlider/>
     <Wheel/>
+    <Sec8/>
     <Sec7/>
     <Footer/>
     </>

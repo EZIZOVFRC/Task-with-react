@@ -26,10 +26,10 @@ function Nav() {
               <a href="#projects">PROJECTS</a>
             </li>
             <li>
-              <Dropdown2/>
+              <a href="#cont">CONTACT</a>
             </li>
             <li>
-              <a href="#cont">CONTACT</a>
+              <Dropdown2/>
             </li>
           </ul>
         </div>
